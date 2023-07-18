@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Varela Round', sans-serif;
+}
+body{
+    background-color: #FFFFFF;
+}
+.nav-container{
+    display: flex;
+    margin-top: 50px;
+    
+    
+}
+.nav-text-container{
+    width: 50%;
+    
+    text-align: center;
+}
+.nav-text{
+    color: rgb(28, 27, 27);
+    padding-right: 100px;
+    
+}
+.nav-items-container{
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+
+}
+.nav-items-container a{
+    text-decoration: none;
+    color: rgb(28, 27, 27);
+    font: bolder;
+}
+/*nav section done */
+
+.banner-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 100px;
+    gap: 200px;
+    
+    
+
+}
+.banner-text{
+
+    align-items: left;
+    width: 50%;
+    text-align: left;
+    justify-content: center;
+    align-items: left;
+    position: relative;
+    left: 100px;
+    
+
+}
+.banner-text h1,p,button{
+    margin-top: 20px;
+}
+.banner-text h1{
+    width: 110%;
+    font-size: 50px;
+    width: 582px;
+    height: 133px;
+    font-weight: 700px;
+    font: bolder;
+   
+    
+}
+.banner-text p{
+    width: 80%;
+    font-size: 16px;
+    font: bolder;
+}
+.banner-img{
+    display: flex;
+    
+    width: 50%;
+    background-image: url(./images/Circle\ design.svg);
+    background-repeat: no-repeat;
+    
+    
+}
+.btn{
+    background-color: #E02C6D;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    color: white;
+}

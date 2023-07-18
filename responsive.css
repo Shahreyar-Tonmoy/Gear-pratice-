@@ -1,0 +1,58 @@
+@media screen and (max-width: 576px) {
+    .nav-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .nav-text-container{
+        width: 100%;
+        font-size: 20px;
+        text-align: center;
+    }
+    .nav-items-container{
+        width: 100%;
+        margin-top: 15px;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        align-items: center;
+        font-size: 20px;
+    
+    }
+    .banner-container{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .banner-text{ 
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    
+    }
+    .banner-text p{
+        width: 100%;
+    }
+    .banner-text h1{
+        display: flex;
+        width: 110%;
+        font-size: 50px;
+        width: 582px;
+        height: 133px;
+        font-weight: 700px;
+        font: bolder;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+       
+        
+    }
+    .banner-img{
+       width: 100%;
+       margin: 0 auto;
+        
+    }
+
+
+}
