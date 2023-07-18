@@ -8,14 +8,14 @@ body{
 }
 .nav-container{
     display: flex;
-    margin-top: 50px;
+    margin-top: 100px;
     
     
 }
 .nav-text-container{
     width: 50%;
     
-    text-align: center;
+    margin-left: 100px;
 }
 .nav-text{
     color: rgb(28, 27, 27);
@@ -55,7 +55,7 @@ body{
     justify-content: center;
     align-items: left;
     position: relative;
-    left: 100px;
+    /* left: 100px; */
     
 
 }
@@ -77,12 +77,13 @@ body{
     font-size: 16px;
     font: bolder;
 }
-.banner-img{
+.banner-img-container{
     display: flex;
     
     width: 50%;
     background-image: url(./images/Circle\ design.svg);
     background-repeat: no-repeat;
+    background-size: contain;
     
     
 }

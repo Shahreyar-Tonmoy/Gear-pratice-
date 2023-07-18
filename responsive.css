@@ -2,12 +2,18 @@
     .nav-container{
         display: flex;
         flex-direction: column;
+        
+
     }
     .nav-text-container{
         width: 100%;
         font-size: 20px;
         text-align: center;
+        margin: 0px;
+        
+        
     }
+    
     .nav-items-container{
         width: 100%;
         margin-top: 15px;
@@ -19,8 +25,15 @@
     
     }
     .banner-container{
+        
+            
+            align-items: center;
+            justify-content: space-between;
+            padding: 0px;
+            gap: 1px;
         display: flex;
         flex-direction: column-reverse;
+        
     }
     .banner-text{ 
         display: flex;
@@ -32,14 +45,14 @@
     
     }
     .banner-text p{
-        width: 100%;
+        width: 80%;
     }
     .banner-text h1{
         display: flex;
-        width: 110%;
-        font-size: 50px;
-        width: 582px;
-        height: 133px;
+        width: 100%;
+        font-size: 40px;
+        
+        
         font-weight: 700px;
         font: bolder;
         align-items: center;
@@ -50,9 +63,12 @@
     }
     .banner-img{
        width: 100%;
-       margin: 0 auto;
+       background-size: contain;
         
     }
-
-
+    .nav-text{
+        color: rgb(28, 27, 27);
+        padding-right: 0px;
+        
+    }
 }
