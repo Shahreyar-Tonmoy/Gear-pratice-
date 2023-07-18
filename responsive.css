@@ -2,6 +2,7 @@
     .nav-container{
         display: flex;
         flex-direction: column;
+        margin-top: 10px;
         
 
     }
@@ -30,7 +31,7 @@
             align-items: center;
             justify-content: space-between;
             padding: 0px;
-            gap: 1px;
+            gap: 20px;
         display: flex;
         flex-direction: column-reverse;
         
